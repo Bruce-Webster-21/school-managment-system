@@ -1,0 +1,23 @@
+.group-item {
+  align-items: center;
+  display: flex;
+  margin: 10px 20px;
+  padding: 15px 25px;
+  background-color: rgb(228, 228, 228);
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid rgb(189, 189, 189);
+}
+.show-more-btn {
+  margin: 5px;
+  padding: 7px 25px;
+  border-style: none;
+  background-color: rgb(139, 139, 139);
+  transition: 0.5s;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.students-list {
+  margin-top: 20px;
+}

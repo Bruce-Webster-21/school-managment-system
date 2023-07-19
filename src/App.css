@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, Geneva, Tahoma, sans-serif;
+}
+nav {
+  background-color: rgb(180, 180, 180);
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+}
+a {
+  padding: 15px 0 15px 20px;
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+  color: #222;
+  border-top: 1px solid #999999;
+  transition: 0.5s;
+}
+a:last-child {
+  border-bottom: 1px solid #999999;
+}
+a:hover {
+  background-color: #999999;
+}
+.section {
+  margin: 0 0 0 300px;
+}
+.add-btn {
+  margin: 0;
+  padding: 10px 25px;
+  border-style: none;
+  background-color: rgb(96, 219, 96);
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: 510px;
+}
+.add-btn:hover {
+  background-color: rgb(8, 175, 8);
+}
