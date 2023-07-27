@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +97,6 @@ a:hover {
   background-color: rgb(255, 196, 196);
   justify-content: space-between;
   border-radius: 10px;
-
 }
 .teacher-edit {
   align-items: center;
@@ -182,7 +181,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .edit-pop-up {
   display: flex;
@@ -234,7 +232,7 @@ a:hover {
 }
 .checkbox {
   margin: 0 25px 0 0;
-  width: 17px;
+  width: 12px;
 }
 .checkbox:checked {
   background-color: red;
@@ -290,7 +288,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-.search-bar{
+.search-bar {
   margin: 0 20px 5px 20px;
   padding: 10px;
   border-radius: 10px;
